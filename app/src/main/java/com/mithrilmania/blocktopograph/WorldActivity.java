@@ -111,7 +111,7 @@ public class WorldActivity extends AppCompatActivity
                 ? getIntent().getSerializableExtra(World.ARG_WORLD_SERIALIZED)
                 : savedInstanceState.getSerializable(World.ARG_WORLD_SERIALIZED));
         if (world == null) {
-            Toast.makeText(this, "cannot open: world == null", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.cannot_open, Toast.LENGTH_SHORT).show();
             //WTF, try going back to the previous screen by finishing this hopeless activity...
             finish();
             //Finish does not guarantee codes below won't be executed!
