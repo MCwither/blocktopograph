@@ -40,7 +40,7 @@
         \n原作者网站：<a href="http://blocktopograph.protolambda.com">blocktopograph.protolambda.com</a>
         <i>免责声明</i>\n
         <b>此应用程序与Minecraft、Mojang AB或Microsoft无关。</b>\n
-        这不是一个官方的而是一个饭制的APP。\n
+        这不是一个官方的而是一个粉丝制作的APP。\n
         Minecraft是Mojang的一个商标。\n
         请注意：\n
             &#8226; 【这不是一个官方的MINECRAFT产品。并未经MOJANG批准并且与其无关。】\n
@@ -146,7 +146,7 @@
     <string name="error_could_not_open_world_details_lost_track_world">错误：无法打开世界详情；世界信息丢失</string>
     <string name="error_could_not_open_world">错误：无法打开世界</string>
     <string name="no_level_data_available">没有有效的存档数据</string>
-    <string name="worldlist_detail_world_name">世界名字：</string>
+    <string name="worldlist_detail_world_name">世界名称：</string>
     <string name="worldlist_detail_world_size">世界大小：</string>
     <string name="worldlist_detail_gamemode">游戏模式：</string>
     <string name="worldlist_detail_last_played">上次游玩：</string>
@@ -262,9 +262,9 @@
     <string name="err_noworld_1">没找到世界。</string>
     <string name="err_noworld_2">
         注意，新版的Minecraft默认将世界放到它的私有存储区。
-        因此，所有外部工具不能接入这些世界。
+        因此，所有外部工具不能接入这些世界。需要root权限
         您需要设置Minecraft使用“外部”的存储方式，方法是：\n\n
-        Minecraft→设置→档案→文件存储位置，将选项又“应用程序”改为“外部”。\n\n
+        Minecraft→设置→档案→文件存储位置，将选项由“应用程序”改为“外部”。\n\n
         然后，新创建的世界将能被Blocktopograph接入。您可以上网查询如何将之前的存档移动到外部。
     </string>
     <string name="create_world_title">创建平坦世界</string>
@@ -376,10 +376,10 @@
     <string name="open_up_warning_1">这东西很危险，用之前请先备份！</string>
     <string name="map_edit_dchunk_warn_not_aligned">您选择的区域没有对齐到区块边界。Blocktopograph可以自动调整。实际删除的区域会比您选择的稍大。准确说，每个方向上会多出0~15方块。这是因为区域必须按整个区块删除，才能被重新生成。如果不喜欢自动调整，您可以取消并手动调节。</string>
     <string name="map_smart_notice_too_many_markers">标记过多！</string>
-    <string name="map_smart_notice_too_many_markers_message">屏幕上有太多标记，比如怪物。您可以在滑动抽屉页点击“标记开关”来关闭，或者设置过滤选项。</string>
-    <string name="map_uioption_open_drawer">打开抽屉</string>
+    <string name="map_smart_notice_too_many_markers_message">屏幕上有太多标记，比如怪物。您可以在侧滑列表页点击“标记开关”来关闭，或者设置过滤选项。</string>
+    <string name="map_uioption_open_drawer">打开侧滑列表</string>
     <string name="general_got_it">哦</string>
-    <string name="picer_failed_corrupt">这个世界没法被Blocktopograph理解，可能版本过旧或者过新。</string>
+    <string name="picer_failed_corrupt">这个世界没法被Blocktopograph解析，可能版本过旧或者过新。</string>
     <string name="biome_pick_title">选择生态群系</string>
     <string name="map_edit_func_chbiome">更改生态群系</string>
     <string name="map_edit_chbiome_for">对于</string>
