@@ -22,6 +22,7 @@
         <a href="http://blocktopograph.protolambda.com/help">
             blocktopograph.protolambda.com/help
         </a>.</string>
+<string name="cannot_open">无法找到你的世界。</string>
     <string name="world_seed_prefix">世界种子：</string>
     <string name="app_about">
         本应用由<b>Proto Lambda</b>（应其要求，已移除链接）原创，
